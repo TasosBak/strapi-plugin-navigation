@@ -1,7 +1,7 @@
 {
   "name": "strapi-plugin-navigation",
   "version": "2.2.7",
-  "description": "Strapi - Navigation plugin",
+  "description": "Shopflix - Navigation plugin",
   "strapi": {
     "name": "navigation",
     "displayName": "Navigation",

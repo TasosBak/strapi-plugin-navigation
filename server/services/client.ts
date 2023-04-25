@@ -301,6 +301,7 @@ const clientService: (context: StrapiContext) => IClientService = ({ strapi }) =
             const lastRelated = isArray(item.related) ? last(item.related) : item.related;
             const relatedContentType = wrapContentType(lastRelated);
             return {
+              testKey: 'testValue',
               id: item.id,
               title: composeItemTitle(item, contentTypesNameFields, contentTypes),
               menuAttached: item.menuAttached,
